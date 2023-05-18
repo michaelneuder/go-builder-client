@@ -10,7 +10,6 @@ import (
 	"github.com/attestantio/go-eth2-client/spec/phase0"
 )
 
-
 // SubmitBlockRequest is the v2 request from the builder to submit a block.
 type SubmitBlockRequest struct {
 	Message                *v1.BidTrace
@@ -27,3 +26,4 @@ func (s *SubmitBlockRequest) String() string {
 		return fmt.Sprintf("ERR: %v", err)
 	}
 	return string(data)
+}
