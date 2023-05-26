@@ -2,10 +2,7 @@ package v2_test
 
 import (
 	"encoding/json"
-<<<<<<< HEAD
 	"fmt"
-=======
->>>>>>> 7561fc0e9c7d35b10c5c5ff558da225d745437a8
 	"testing"
 
 	v2 "github.com/attestantio/go-builder-client/api/v2"
@@ -133,7 +130,6 @@ func TestSubmitBlockRequestJSON(t *testing.T) {
 		})
 	}
 }
-<<<<<<< HEAD
 
 func TestSubmitBlockRequestSSZ(t *testing.T) {
 	tests := []struct {
@@ -167,5 +163,3 @@ func TestSubmitBlockRequestSSZ(t *testing.T) {
 		})
 	}
 }
-=======
->>>>>>> 7561fc0e9c7d35b10c5c5ff558da225d745437a8

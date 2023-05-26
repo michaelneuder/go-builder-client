@@ -19,7 +19,7 @@ type submitBlockRequestJSON struct {
 	ExecutionPayloadHeader *capella.ExecutionPayloadHeader `json:"execution_payload_header"`
 	Signature              string                          `json:"signature"`
 	Transactions           []string                        `json:"transactions"`
-	Withdrawals            []*capella.Withdrawal           `json:"withdrawals"`
+	Withdrawals            []capella.Withdrawal            `json:"withdrawals"`
 }
 
 // MarshalJSON implements json.Marshaler.
